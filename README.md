@@ -1,5 +1,7 @@
-# Portfolio
-A simple personal blog page for GitHub portfolio
+# Personal Blog Portfolio
+
+## Description
+A simple personal blog page created for GitHub portfolio project.
 
 ## Features
 - About Me section
