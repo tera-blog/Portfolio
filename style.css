@@ -1,58 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background: url('gambar/gambar\ 3.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+    color: #333;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1em;
+    background: linear-gradient(135deg, #000000 0%, #a2a2a2 100%);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     text-align: center;
-    animation: slideDown 1s ease;
-}
-
-@keyframes slideDown {
-    from { transform: translateY(-100%); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-    color: #ffd700;
-    margin: 0 1em;
+    color: white;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ff4500;
+    color: #333;
 }
 
-section {
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 2em auto;
-    padding: 2em;
+.welcome-section {
+    background: linear-gradient(135deg, #544d53 0%, #1a1b1b 100%);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
     max-width: 1000px;
-    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s ease;
 }
 
-section.visible {
+.section.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
 .profile-pic {
-    width: 200px;
-    border-radius: 30%;
+    width: 150px;
+    border-radius: 50%;
     display: block;
-    margin: 0 auto 1em;
+    margin: 0 auto 20px;
     transition: transform 0.3s;
 }
 
@@ -60,16 +72,30 @@ section.visible {
     transform: scale(1.1);
 }
 
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
 .pic {
-    width: 800px;
-    border-radius: 0%;
-    display: block;
-    margin: 0 auto 1em;
-    transition: transform 0.3s;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     text-align: center;
-    padding: 1em;
-    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    background-color: #1a1b1b;
+    color: white;
+    margin-top: 50px;
 }
+
+
