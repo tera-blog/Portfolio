@@ -36,7 +36,7 @@ section {
     background-color: rgba(0, 0, 0, 0.6);
     margin: 2em auto;
     padding: 2em;
-    max-width: 800px;
+    max-width: 1000px;
     border-radius: 10px;
     opacity: 0;
     transform: translateY(50px);
@@ -49,8 +49,8 @@ section.visible {
 }
 
 .profile-pic {
-    width: 150px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 30%;
     display: block;
     margin: 0 auto 1em;
     transition: transform 0.3s;
@@ -58,6 +58,14 @@ section.visible {
 
 .profile-pic:hover {
     transform: scale(1.1);
+}
+
+.pic {
+    width: 800px;
+    border-radius: 0%;
+    display: block;
+    margin: 0 auto 1em;
+    transition: transform 0.3s;
 }
 
 footer {
