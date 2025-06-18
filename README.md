@@ -1,2 +1,19 @@
 # Portfolio
 A simple personal blog page for GitHub portfolio
+
+## Features
+- About Me section
+- Blog Posts section
+- Contact section
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## How to Run
+1. Download or clone this repository.
+2. Open `index.html` using any web browser.
+
+## Screenshot
+*(You can add a screenshot here if you want)*
