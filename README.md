@@ -14,9 +14,9 @@ A simple personal blog page created for GitHub portfolio project.
 - CSS
 - JavaScript
 
-## How to Run
-1. Download or clone this repository.
-2. Open `index.html` using any web browser.
+## How to Use
+1. Website link: https://tera-blog.github.io/Portfolio/
+2. Desktop: Click the navigation button to navigate eahh section
 
 ## Screenshot
-*(You can add a screenshot here if you want)*
+
