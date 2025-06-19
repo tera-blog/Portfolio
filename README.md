@@ -4,9 +4,9 @@
 A personal blog website to showcase my journey, portfolio, and interests in graphic design, multimedia, and Virtual Reality (VR) technology.
 
 ## 📑 Table of Contents
-- [👤 About Me](#about-me)
-- [🛤️ My Journey](#my-journey)
-- [🎨 My Portfolio](#my-portfolio)
+- [👤 About Me](#about)
+- [🛤️ My Journey](#journey)
+- [🎨 My Portfolio](#portfolio)
 - [✉️ Contact](#contact)
 
 ## Features
