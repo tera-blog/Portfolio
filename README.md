@@ -1,13 +1,24 @@
 # Personal Blog Portfolio
 
 ## Description
-A simple personal blog page created for GitHub portfolio project.
+A personal blog website to showcase my journey, portfolio, and interests in graphic design, multimedia, and Virtual Reality (VR) technology.
+
+## 📑 Table of Contents
+- [👤 About Me](#about-me)
+- [🛤️ My Journey](#my-journey)
+- [🎨 My Portfolio](#my-portfolio)
+- [✉️ Contact](#contact)
 
 ## Features
-- About Me section
-- Blog Posts section
-- Portfolio Posts section
-- Contact section
+- Responsive navigation menu
+- Welcome section with smooth animations
+- About Me section with profile picture
+- Educational journey sharing
+- Portfolio gallery with hover effects
+- Contact information
+- Scroll-based animation
+- Aesthetic background pattern
+
 
 ## Technologies Used
 - HTML
@@ -19,4 +30,7 @@ A simple personal blog page created for GitHub portfolio project.
 2. Desktop: Click the navigation button to navigate eahh section
 
 ## Screenshot
-
+### Home Page
+![Home Screenshot](gambar/main-menu.png)
+### Portfolio Section
+![Portfolio Screenshot](gambar/portfolio.png)
